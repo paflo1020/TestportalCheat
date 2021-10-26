@@ -21,11 +21,11 @@ function run() {
      try{ 
          fetch('https://raw.githubusercontent.com/paflo1020/TestportalCheat/main/TestportalCheat/manifest.json').then(response => response.json()).then(data => {
              if(!(data.version == mfst.version)) {
-                 document.getElementById("update").innerText = "Wymagana jest aktuzalizacja wtyczki z wersji<b>"+mfst.version+"</b> do <b>"+data.version+"</b>"
+                 document.getElementById("update").innerHTML = "Wymagana jest aktuzalizacja wtyczki z wersji<b>"+mfst.version+"</b> do <b>"+data.version+"</b>"
              }
          });
      } catch(err) {
-         document.getElementById("update").innerText = "Wystąpił błąd podczas pobierania informacji o aktualizacji."
+         document.getElementById("update").innerHTML = "Wystąpił błąd podczas pobierania informacji o aktualizacji."
      }
     
 }
