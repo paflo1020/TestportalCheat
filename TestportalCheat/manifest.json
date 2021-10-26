@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "TestportalCheat",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.testportal.pl/*",
+                "*://*.testportal.net/*",
+                "*://*.teams.microsoft.com/*"
+            ],
+            "js": [
+                "app.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "functions/Focus.js",
+        "functions/Hud.js",
+        "functions/Questions.js",
+        "functions/Timer.js"
+    ],
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_title": "TestportalCheat",
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "16": "files/ic16.png",
+        "48": "files/ic48.png",
+        "128": "files/ic128.png"
+    },
+    "description": "CLASS - xhr261020211-1020"
+}
