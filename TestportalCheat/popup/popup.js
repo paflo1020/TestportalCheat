@@ -18,16 +18,16 @@ function run() {
         document.getElementById("realTest").checked = realTest;
     })
     //Updates checker
-    // try{ 
-    //     fetch('https://raw.githubusercontent.com/pawlo1020/testportalcheat/chrome/manifest.json/').then(response => response.json()).then(data => {
-    //         if(!(data.version == mfst.version)) {
-    //             document.getElementById("update").innerText = "Wymagana jest aktuzalizacja wtyczki z wersji<b>"+mfst.version+"</b> do <b>"+data.version+"</b>"
-    //         }
-    //     });
-    // } catch(err) {
-    //     document.getElementById("update").innerText = "Wystąpił błąd podczas pobierania informacji o aktualizacji."
-    // }
-
+     try{ 
+         fetch('https://raw.githubusercontent.com/paflo1020/TestportalCheat/main/TestportalCheat/manifest.json').then(response => response.json()).then(data => {
+             if(!(data.version == mfst.version)) {
+                 document.getElementById("update").innerText = "Wymagana jest aktuzalizacja wtyczki z wersji<b>"+mfst.version+"</b> do <b>"+data.version+"</b>"
+             }
+         });
+     } catch(err) {
+         document.getElementById("update").innerText = "Wystąpił błąd podczas pobierania informacji o aktualizacji."
+     }
+    
 }
 run();
 
