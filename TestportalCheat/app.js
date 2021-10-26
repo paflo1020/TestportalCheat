@@ -27,7 +27,7 @@ chrome.storage.local.get("links", function({links}){
 })
 
 chrome.storage.local.get("realTest", function({realTest}){
-    if(realTest == false) {
+    if(realTest == false || !realTest) {
         const element = document.createElement("script");
         element.src = chrome.extension.getURL("functions/Hud.js");
         (document.head || document.body).appendChild(element);
