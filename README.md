@@ -5,6 +5,7 @@ TestportalCheat - Google Chrome extension created by Paflo (pawlo1020#6568)
 > 
 > *Jeżeli korzystasz z tej wtyczki pierwszy raz, przeczytaj dokładnie instrukcję, aby nie wystąpiły problemy.*
 
+*Nie bierzemy odpowiedzialności za niepoprawne działania wtyczki, jeżeli takie napotkasz skontaktuj się ze mna na discordzie (pawlo1020#6568) lub na messengerze (o ile masz taki zasób wiedzy o mojej osobie)*
 ### Informacje/Aktualności
 
 > Informację odnośnie sprawności wtyczki staramy się badać regularnie. Jeżeli widzisz aktualizację aplikacji wykonaj ją jak najszybciej! Jeżeli tego nie zrobisz, prawdopodobnie będziesz narażony na niepoprawne działanie wtyczki i możliwość wykrycia twojego oszustwa przez "zabezpieczenia" testportalu.
@@ -22,7 +23,7 @@ TestportalCheat - Google Chrome extension created by Paflo (pawlo1020#6568)
 
 **2.** Wypakuj folder "TestportalCheat" w wybranym przez Ciebie miejscu
 
-**3.** Otwórz *chrome://extensions/* w przeglądarce Google Chrome
+**3.** Otwórz ***chrome://extensions/*** w przeglądarce Google Chrome
 
 **4.** Uruchom tryb dewelopera (prawy, górny róg na w/w stronie)
 
